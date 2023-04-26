@@ -1,0 +1,79 @@
+/* Reset default browser styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Set body background and font styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #ade2f7;
+}
+
+/* Style the header */
+header {
+	background-color: #afe4ad;
+	color: #3fc9f3;
+	padding: 10px;
+}
+
+/* Style the navigation links */
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* Style the hero section */
+.hero {
+	background-image: url('hero.jpg');
+	background-size: cover;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #095683;
+}
+
+/* Style the project section */
+.projects {
+	background-color: #360bf3;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #ddd;
+}
+
+/* Style the project section */
+.Services {
+	background-color: #360bf3;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #ddd;
+}
+/* Style the about me section */
+.about-me {
+	background-color: #1c0cf5;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #ddd;
+}
